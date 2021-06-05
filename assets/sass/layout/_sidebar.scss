@@ -1,0 +1,57 @@
+/* Sidebar Layout */
+.sidebar {
+    margin: 1em;
+}
+
+.about {
+    padding-bottom: 1em;
+    border-bottom: 1px solid $quick-silver;
+    &__content {
+      padding-top: 1em;
+      line-height: 1.2;
+    }
+}
+
+.tags {
+    padding: 1em 0;
+    border-bottom: 1px solid $quick-silver;
+    &__list {
+    display: flex;
+    list-style: none;
+    padding-top: 1em;
+    }
+    &__item {
+    background: $eggplant;
+    color: $white;
+    height: 26px;
+    line-height: 26px;
+    padding: 0 10px;
+    margin: 0 10px 10px 0;
+    }
+}
+
+.news {
+    padding: 1em 0;
+    &__title {
+      padding: 1em 0 0.5em 0;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+  .sidebar {
+      margin-top: 2em;
+      margin-right: 2em;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .sidebar {
+      margin-top: 2em;
+  }
+}
+
+@media (max-width: 767px) {
+    .sidebar {
+      display: none;
+    }
+}

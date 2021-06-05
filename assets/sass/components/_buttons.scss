@@ -1,0 +1,18 @@
+/* Buttons component */
+.form__button {
+    background-color: $tuscany;
+    border: $tuscany;
+    color: $white;
+    font-family: $cabin;
+    font-weight: $bold;
+    padding: 0.5em 1em;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 1em;
+    cursor: pointer;
+    &:hover {
+        background-color: $antique-fuchsia;
+        border: $antique-fuchsia;
+    }
+}

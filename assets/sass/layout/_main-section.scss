@@ -1,0 +1,25 @@
+/* Main section Layout */
+.main-section {
+    margin: 1em;
+}
+
+.card {
+    display: inline-block;
+    margin: 1em;
+    cursor: pointer;
+}
+
+.card__body img {
+    width: 100%;
+    height: 100%;
+}
+
+.card__body p {
+    padding: 5px 10px;
+}
+
+@media only screen and (min-width: 768px) {
+    .main-section {
+        margin: 2em;
+    }
+}
